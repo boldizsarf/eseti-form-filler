@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Eseti.exe" version="1.0.0.0" publicKeyToken="dd71484052800754" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Eseti" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Eseti.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eseti.exe" size="916448">
+      <assemblyIdentity name="Eseti" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3ep13DeR8My8ruXUmO9Izwla73SbBsJZw+YEVMqVa30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfSharp.dll" size="581632">
+      <assemblyIdentity name="PdfSharp" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wxigZm5aAwUruzKkf/cB9VBYtjYh7UcnVJEG+R0XZ38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfSharp.Charting.dll" size="94208">
+      <assemblyIdentity name="PdfSharp.Charting" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0eigG0ynYMwODSPmc/8ILEDo3QiilqS8OR7cVKRBwvs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PdfSharp.Charting.resources.dll" size="4608">
+      <assemblyIdentity name="PdfSharp.Charting.resources" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsWPG3XpLdwV8ut6PEzgHe07YHd1BCFcCEel3X5WGvc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PdfSharp.resources.dll" size="5120">
+      <assemblyIdentity name="PdfSharp.resources" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5e4ncMy4a8PPYVRsNJBdHjlpfkuUtJW1j25iS42e/eE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Eseti.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wDmrlTz6aNIp269ZO0+f+NuBph+l7PSF+/aeuhX4N/I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-VRDVTKR\fodor" issuerKeyHash="336b12fce4c48b6e123e6e919ac75fd2d7d67099" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E8mOKBag9LPMo8x/eQWkRapF1Rxrlc+h6A6RxigPvTQ=</DigestValue></Reference></SignedInfo><SignatureValue>AjqoeQn7zy7giD5Ve5syi6iGafhekATnPP1w0c9ZfucoL/ejyGtQAtK5CziWjhBIPgssaAIkVVEooHLWCAeZYpcuMU+ad9/JpbPCAyNI3zp1ynaipms2KFP96cPOZG9gP1ZXRYwEoj2du7wOqRQ9kgvEnmtCAjFzvSUCWWKHRLw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s+SlO0X8vZpAvlgneu4fR1NFpZdR1cWrwUZovqawCZRYhmP8w4oaCU0uoYqKk/gtJ8apdnMyok6a0ZyXaVMKfxH8US2/FLNNUe4ZZp/JWJwLmvvIE0Tm0X5slnwmhGrFkr7XWxd01ZWEIM5IcdtOUBMeIrZdx2QRojduLO0VYZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34bd0f28c6910ee8a1cf956b1cd545aa45a405797fcca3ccb3f4a016288ec913" Description="" Url=""><as:assemblyIdentity name="Eseti.exe" version="1.0.0.0" publicKeyToken="dd71484052800754" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VRDVTKR\fodor</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+vO7NN47n2JL0jNV/izaVRiO0YyfIadrLvuQhCq5qDc=</DigestValue></Reference></SignedInfo><SignatureValue>CKg6CKIh59fyoIBw/YsAJ1A7kgREWJncsjioVH1hQJmN4kOkStnSvjdo8r+ZXujBDxOkhtWvZedDsCfIjn+lO6Eb8XLMOf62edY0vrNyY95KGKxDzapbYIiWCC0F2uHqlV7an4zUe0AjCAwOYMQEKCR4yBIgQnZUou76QIZD1aU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s+SlO0X8vZpAvlgneu4fR1NFpZdR1cWrwUZovqawCZRYhmP8w4oaCU0uoYqKk/gtJ8apdnMyok6a0ZyXaVMKfxH8US2/FLNNUe4ZZp/JWJwLmvvIE0Tm0X5slnwmhGrFkr7XWxd01ZWEIM5IcdtOUBMeIrZdx2QRojduLO0VYZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHseCnjBkHpdEr2gJIN6tCTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYAUgBEAFYAVABLAFIAXABmAG8AZABvAHIwHhcNMTgwNDI2MTI1MjE4WhcNMTkwNDI2MTg1MjE4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYAUgBEAFYAVABLAFIAXABmAG8AZABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALPkpTtF/L2aQL5YJ3ruH0dTRaWXUdXFq8FGaL6msAmUWIZj/MOKGglNLqGKipP4LSfGqXZzMqJOmtGcl2lTCn8R/FEtvxSzTVHuGWafyVicC5r7yBNE5tF+bJZ8JoRqxZK+11sXdNWVhCDOSHHbTlATHiK2XcdkEaI3biztFWGdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAFTQgHjVAo+OVfQuJFVxAf1IiZ+O15wP8CZ2I4J6NlomPOlE2jyyu6l2LoegUmoxs5BzIx0pV+3PqJdZ70uKYgBPFEodoqJJtrKPZZNSxntWPiYJzCdt/OQpEI5QLBkWQQmfo+q17jjeMNTHrksIagpjcNall9b2d6gGRu2CAyjU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

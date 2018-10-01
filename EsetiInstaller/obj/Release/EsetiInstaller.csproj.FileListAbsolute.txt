@@ -1,0 +1,14 @@
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\bin\Release\EsetiInstaller.exe.config
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\bin\Release\EsetiInstaller.exe.manifest
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\bin\Release\EsetiInstaller.application
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\bin\Release\EsetiInstaller.exe
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\bin\Release\EsetiInstaller.pdb
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.csprojResolveAssemblyReference.cache
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.Form1.resources
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.Properties.Resources.resources
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.csproj.GenerateResource.cache
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.csproj.CoreCompileInputs.cache
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.exe.manifest
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.application
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.exe
+C:\Users\fodor\source\repos\Eseti\EsetiInstaller\obj\Release\EsetiInstaller.pdb
